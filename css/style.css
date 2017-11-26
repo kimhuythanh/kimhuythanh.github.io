@@ -64,11 +64,12 @@ a:hover {
 .wrapper {
 	width:100%;
 	overflow:hidden;
+	margin-bottom: 10px;
 }
 .extra-wrap {
 	overflow:hidden;
 }
-p {
+.p {
 	margin-bottom:18px;
 }
 .p0 {
@@ -78,7 +79,7 @@ p {
 	margin-bottom:8px;
 }
 .p2 {
-	margin-bottom:15px;
+	margin-bottom:20px;
 }
 .p3 {
 	margin-bottom:30px;
@@ -149,7 +150,7 @@ p {
 }
 .img-indent {
 	float:left;
-	margin:0 19px 0px 0;
+	margin:0 19px 10px 0;
 }
 .img-indent2 {
 	float:left;
@@ -195,11 +196,11 @@ h1 a {
 }
 .phone {
 	display:block;
-	font-size:25px;
+	font-size:20px;
 	line-height:30px;
 	text-align:right;
 	color:#fff;
-	margin-top:-5px;
+	margin-top:5px;
 }
 /***** menu *****/
 header nav {
@@ -330,7 +331,7 @@ h6 {
 	-webkit-border-radius:4px;
 }
 .box .padding {
-	padding:15px 15px 20px 30px;
+	padding:25px 15px 35px 30px;
 }
 .container-bot {
 	width:100%;
@@ -359,6 +360,12 @@ h6 {
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
+}
+#btn-1 {
+	margin-top: 44px;
+}
+#btn-2 {
+	margin-top: 44px;
 }
 .button:hover {
 	background:#fb4400;
@@ -432,6 +439,21 @@ dl.main-address span {
 	float:left;
 	width:74px;
 	color:#fff;
+}
+#phone-1 {
+	margin-right: 3px;
+}
+#phone-2 {
+	margin-right: 3px;
+}
+#phone-3 {
+	margin-right: 3px;
+}
+#fax {
+	margin-right: 3px;
+}
+#email {
+	margin-right: 3px;
 }
 .price-list td {
 	border:1px solid #343434;
